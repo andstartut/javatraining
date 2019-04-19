@@ -18,7 +18,6 @@ public class Order implements IOrder {
         this.client = client;
         this.pizzas = pizzas;
         counter.addPizzaToOrder();
-        pizzaAttributs();
         System.out.println(LocalTime.now());
     }
 

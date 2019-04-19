@@ -59,7 +59,9 @@ public class Main {
         );
 
         new Order(4578, wrongPizza);
-        System.out.println(new Order(7717, pizzasOne));
         new Order(4372, pizzasTwo);
+        Order order = new Order(7717, pizzasOne);
+        System.out.println(order);
+        order.pizzaAttributs();
     }
 }
