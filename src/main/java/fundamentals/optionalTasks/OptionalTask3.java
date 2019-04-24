@@ -1,10 +1,22 @@
 package fundamentals.optionalTasks;
 
-public class OptionalTaskTwo {
-    private String month;
+public class OptionalTask3 {
 
-    public OptionalTaskTwo(int number) {
+    public OptionalTask3(int number) {
         validate(number);
+        months(number);
+    }
+
+    private int validate(int number) {
+        if (number < 1 || number > 12) {
+            System.out.println("Введено неверное число месяца.");
+            System.exit(-1);
+        }
+        return number;
+    }
+
+    private void months(int number) {
+        String month = null;
         switch (number) {
             case 1:
                 month = "Январь";
@@ -44,13 +56,5 @@ public class OptionalTaskTwo {
                 break;
         }
         System.out.println(month);
-    }
-
-    private int validate(int number) {
-        if (number < 1 || number > 12) {
-            System.out.println("Введено неверное число месяца.");
-            System.exit(-1);
-        }
-        return number;
     }
 }

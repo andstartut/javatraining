@@ -1,18 +1,20 @@
 package fundamentals;
 
-import fundamentals.optionalTasks.OptionalTaskOne;
-import fundamentals.optionalTasks.OptionalTaskThree;
-import fundamentals.optionalTasks.OptionalTaskTwo;
+import fundamentals.optionalTasks.OptionalTask1;
+import fundamentals.optionalTasks.OptionalTask2;
+import fundamentals.optionalTasks.OptionalTask3;
+import fundamentals.optionalTasks.OptionalTask4;
 
 public class Runner {
     public static void main(String[] args) {
-//        new GettingStarted().helloUser();
-//        new GettingStarted().reversOrderConsoleArguments(args);
-//        new GettingStarted().randomNumbers();
-//        new GettingStarted().sumNumbers(args);
+        new GettingStarted().helloUser();
+        new GettingStarted().consoleArgumentsInReversOrder(args);
+        new GettingStarted().randomNumbers();
+        new GettingStarted().sumNumbers(args);
 
-//        new OptionalTaskOne();
-//        new OptionalTaskTwo(11);
-        new OptionalTaskThree();
+        new OptionalTask1(args);
+        new OptionalTask2();
+        new OptionalTask3(11);
+        new OptionalTask4();
     }
 }

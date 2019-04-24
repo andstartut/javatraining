@@ -2,12 +2,12 @@ package fundamentals.optionalTasks;
 
 import java.util.Random;
 
-public class OptionalTaskOne {
+public class OptionalTask2 {
     private Random generator = new Random();
     private int[] random = new int[10];
     private int[] tenNumbers = {1538, 42, 1, 345, 99999, 2468, -357, 0, 87, 54321};
 
-    public OptionalTaskOne() {
+    public OptionalTask2() {
         findShortAndLongNumbers(tenRandomNumbers());
         ascendingOrder(tenRandomNumbers());
         numbersSmallerMiddleValue(tenNumbers);
