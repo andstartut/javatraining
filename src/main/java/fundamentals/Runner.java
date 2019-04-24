@@ -7,11 +7,6 @@ import fundamentals.optionalTasks.OptionalTask4;
 
 public class Runner {
     public static void main(String[] args) {
-        new GettingStarted().helloUser();
-        new GettingStarted().consoleArgumentsInReversOrder(args);
-        new GettingStarted().randomNumbers();
-        new GettingStarted().sumNumbers(args);
-
         new OptionalTask1(args);
         new OptionalTask2();
         new OptionalTask3(11);
