@@ -6,7 +6,7 @@ import fundamentals.mainTask.Enum.PizzaBase;
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class MainTaskRunner {
 
     public static void main(String[] args) {
         List<Pizza> wrongPizza = Arrays.asList(
@@ -54,7 +54,7 @@ public class Main {
                 new Pizza.Builder()
                         .setNumberPizza(12)
                         .setPizzaBase(PizzaBase.NORMAL)
-                        .setNamePizza("BasePZZ")
+                        .setNamePizza("PapaJohns")
                         .build()
         );
 

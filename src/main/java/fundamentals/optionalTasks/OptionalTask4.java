@@ -53,7 +53,7 @@ public class OptionalTask4 {
                     j = matrix.length;
                 } else if (matrix[i][j] <= 0 && firstPositiveElement != 0) {
                     sumElements += matrix[i][j];
-                } else if (matrix[i][j] > 0 && matrix[i][j + 1] < 0) {
+                } else if (matrix[i][j] > 0 && j < matrix.length) {
                     firstPositiveElement = matrix[i][j];
                 }
             }
