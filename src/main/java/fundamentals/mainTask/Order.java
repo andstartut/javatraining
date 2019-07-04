@@ -18,7 +18,6 @@ public class Order implements IOrder {
         this.client = client;
         this.pizzas = pizzas;
         counter.addPizzaToOrder();
-        pizzaAttributs();
         System.out.println(LocalTime.now());
     }
 
@@ -142,8 +141,6 @@ public class Order implements IOrder {
                     "Кол-во:                         " +
                     pizza.getNumberPizza() + "\n" +
                     "--------------------------------\n";
-
-
         }
         bill += "Общая сумма:              " +
                 new BigDecimal(totalPrice).setScale(2, RoundingMode.UP) + " €\n" +
