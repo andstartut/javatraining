@@ -1,4 +1,4 @@
-package ErrorExceptions;
+package error_exceptions;
 
 import java.io.BufferedReader;
 import java.io.File;

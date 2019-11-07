@@ -1,4 +1,4 @@
-package ErrorExceptions;
+package error_exceptions;
 
 public class MyException extends Exception {
 
